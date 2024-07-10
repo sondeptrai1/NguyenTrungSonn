@@ -1,0 +1,109 @@
+.detail{
+    padding: 10px 10px;
+    border: 1px solid #000;
+}
+.detail .detail-main {
+    display: flex;
+    width: 100%;
+}
+.detail .detail-main img {
+    width: 400px !important;
+    height: auto;
+}
+.detail .detail-main .detail-main-text {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 60% !important;
+}
+.detail .detail-main .detail-main-text h3 {
+    color: red;
+    font-weight: 700;
+    margin-bottom: -20px;
+}
+.detail .detail-main .detail-main-text p {
+    font-size: 15px;
+    
+}
+.cauhinh{
+    background-color: rgb(234, 234, 234);
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 10px;
+    width: 60% !important;
+    text-align: center;
+}
+
+.quatang{
+    border: 1px solid rgb(17, 85, 173);
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    width: 100%;
+}
+.detail-main-quality {
+    width: 45% !important;
+    text-align: center;
+}
+.detail-main-quality-text {
+    border: 1px solid rgb(9, 24, 24);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.detail-main-quality-text h4 {
+    font-size: 15px;
+    color: red;
+}
+.detail-main-quality-text p {
+    font-size: 15px;
+}
+.detail-main-quality-address {
+    border: 1px solid rgb(9, 24, 24);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.detail-main-quality-address p{
+    font-size: 15px;
+}
+.pay {
+    margin-top: 70px;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+}
+.bottom-detail{
+    padding: 10px 10px;
+}
+.bottom-detail .bottom-detail-text img{
+    width: 100%;
+    height: auto;
+}
+
+.cart-preview {
+    position: fixed;
+    top: 70px; /* Cách top một khoảng phù hợp với thiết kế của bạn */
+    right: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px;
+    border-radius: 5px;
+    display: none; /* Mặc định ẩn giỏ hàng */
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.cart-preview.show {
+    display: block; /* Hiển thị giỏ hàng khi có class 'show' */
+}
+
+.cart-items-preview {
+    /* Kiểu dáng của từng mặt hàng trong giỏ hàng nhỏ gọn */
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.cart-item-preview img{
+    width: 80px;
+}
+.cart-items-preview:last-child {
+    border-bottom: none; /* Loại bỏ đường viền dưới của phần tử cuối cùng */
+}

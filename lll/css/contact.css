@@ -1,0 +1,21 @@
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(219, 219, 219);
+}
+.contact {
+    margin-top: 10px;
+}
+.contact hr{
+    width: 90%;
+}
+.giua-contact {
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
